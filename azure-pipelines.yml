@@ -1,4 +1,7 @@
 {
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
     "sku": {
         "name": "Standard_LRS",
         "tier": "Standard"
