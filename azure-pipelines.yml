@@ -1,0 +1,44 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "Storage",
+    "id": "/subscriptions/af3bca4d-f00b-419a-bed2-16b57dad4a51/resourceGroups/Demo/providers/Microsoft.Storage/storageAccounts/devreleasenotes",
+    "name": "devreleasenotes",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "southindia",
+    "tags": {},
+    "properties": {
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-06-03T06:14:02.2996967Z"
+                },
+                "blob": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-06-03T06:14:02.2996967Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "provisioningState": "Succeeded",
+        "creationTime": "2022-06-03T06:14:02.2371605Z",
+        "primaryEndpoints": {
+            "blob": "https://devreleasenotes.blob.core.windows.net/",
+            "queue": "https://devreleasenotes.queue.core.windows.net/",
+            "table": "https://devreleasenotes.table.core.windows.net/",
+            "file": "https://devreleasenotes.file.core.windows.net/"
+        },
+        "primaryLocation": "southindia",
+        "statusOfPrimary": "available"
+    }
+}
